@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header .dropdown {
+    margin-right: 20px;
+}
+
+header .search-container {
+    display: flex;
+    align-items: center;
+}
+
+header .search-container input {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header .search-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .search-container button:hover {
+    background-color: #0056b3;
+}
+
+.allcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dad6d6;
+    padding: 16px;
+    
+    text-align: center;
+    max-width: 200px;
+    flex: 1 1 calc(25% - 32px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-product {
+    max-width: 100%;
+
+    border-radius: 8px;
+}
+
+.title-product {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.price {
+    font-size: 1em;
+    color: #333;
+}
+
+.addCard {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addCard:hover {
+    background-color: #218838;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.hide {
+    display: none;
+}
